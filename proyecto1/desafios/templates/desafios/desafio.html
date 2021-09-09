@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Mensual</title>
+</head>
+<body>
+    <h1>Desafio mes de {{mes|upper}}</h1>
+    {%if texto_desafio %}
+        <h2>{{texto_desafio}}</h2>
+    {%else%}
+        <h2>No hay desafio para este mes...</h2>
+    {%endif%}
+</body>
+</html>
